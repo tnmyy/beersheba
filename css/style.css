@@ -100,7 +100,7 @@ li:hover {
   font-weight: 500;
 }
 .right > img {
-  width: 50rem;
+  width: 35rem;
   border-radius: 2rem;
   margin-top: 3rem;
 }
@@ -136,6 +136,7 @@ li:hover {
 }
 .msg > div {
   padding: 2rem;
+  margin-top: 2rem;
   box-shadow: 10px 8px 10px 1px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: var(--transition);
@@ -159,7 +160,9 @@ li:hover {
   justify-content: center;
 }
 .schlHead > div > img {
-  width: 20rem;
+  height: 20rem;
+  margin: 1rem;
+  margin-top: 4rem;
   border: 0.3rem solid var(--bgClr);
   border-top-left-radius: 0.2rem;
   border-top-right-radius: 1rem;
@@ -168,4 +171,7 @@ li:hover {
 }
 .schlHead > div {
   margin: 1rem;
+}
+.headTxt{
+  text-align: center;
 }
