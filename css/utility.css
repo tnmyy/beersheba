@@ -6,6 +6,7 @@
   --txtClr: #000000;
   --mainClr: #ffffff;
   --background: #2a95d9;
+  --box-shadow: 10px 8px 10px 1px rgba(0, 0, 0, 0.5);
   --transition: 0.5s ease-in-out;
 }
 
@@ -17,6 +18,7 @@ body.dark {
   --txtClr: #dadada;
   --mainClr: #030303;
   --background: #1f59cc;
+  --box-shadow: 10px 8px 10px 1px rgb(72, 72, 84, 50%);
   --transition: 0.5s ease-in-out;
 }
 
@@ -30,6 +32,12 @@ body.dark {
   font-size: 3rem;
   margin-bottom: 1rem;
   text-align: center;
+}
+.h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .section {
   margin-top: 5rem;
