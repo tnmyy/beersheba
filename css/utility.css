@@ -1,0 +1,46 @@
+/* Variables */
+
+:root {
+  --bgClr: #eee;
+  --bgClr2: #ffffff;
+  --txtClr: #000000;
+  --mainClr: #ffffff;
+  --background: #2a95d9;
+  --transition: 0.5s ease-in-out;
+}
+
+/* Dark Mode */
+
+body.dark {
+  --bgClr: #2b2c2d;
+  --bgClr2: #242424;
+  --txtClr: #dadada;
+  --mainClr: #030303;
+  --background: #1f59cc;
+  --transition: 0.5s ease-in-out;
+}
+
+/* Common Classes */
+
+.hr {
+  width: 90vw;
+  margin: auto;
+}
+.h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+a {
+  text-decoration: none;
+  color: var(--txtClr);
+}
+p {
+  font-size: 1.1rem;
+}
